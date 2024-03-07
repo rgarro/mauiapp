@@ -1,5 +1,4 @@
-﻿using Microsoft.Extensions.Logging;
-
+﻿using Microsoft.Extensions.Logging
 namespace MauiApp1
 {
     public static class MauiProgram
@@ -13,7 +12,6 @@ namespace MauiApp1
                 {
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
-                    Console.WriteLine("Quebec Bonbo sky gazing Hookipa skies!");
                 });
 
 #if DEBUG
